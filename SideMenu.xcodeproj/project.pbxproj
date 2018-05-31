@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		552AFF7C20BFA777000C55FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AFF7B20BFA777000C55FE /* AppDelegate.swift */; };
-		552AFF7E20BFA777000C55FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AFF7D20BFA777000C55FE /* ViewController.swift */; };
+		552AFF7E20BFA777000C55FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AFF7D20BFA777000C55FE /* HomeViewController.swift */; };
 		552AFF8120BFA777000C55FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552AFF7F20BFA777000C55FE /* Main.storyboard */; };
 		552AFF8320BFA777000C55FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 552AFF8220BFA777000C55FE /* Assets.xcassets */; };
 		552AFF8620BFA777000C55FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552AFF8420BFA777000C55FE /* LaunchScreen.storyboard */; };
 		552AFF9120BFA778000C55FE /* SideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AFF9020BFA778000C55FE /* SideMenuTests.swift */; };
+		552AFF9C20BFB26C000C55FE /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AFF9B20BFB26C000C55FE /* SideMenuViewController.swift */; };
+		552AFF9E20BFBC8E000C55FE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AFF9D20BFBC8E000C55FE /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,7 @@
 /* Begin PBXFileReference section */
 		552AFF7820BFA777000C55FE /* SideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		552AFF7B20BFA777000C55FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		552AFF7D20BFA777000C55FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		552AFF7D20BFA777000C55FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		552AFF8020BFA777000C55FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		552AFF8220BFA777000C55FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		552AFF8520BFA777000C55FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		552AFF8C20BFA778000C55FE /* SideMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		552AFF9020BFA778000C55FE /* SideMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTests.swift; sourceTree = "<group>"; };
 		552AFF9220BFA778000C55FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		552AFF9B20BFB26C000C55FE /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		552AFF9D20BFBC8E000C55FE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				552AFF7B20BFA777000C55FE /* AppDelegate.swift */,
-				552AFF7D20BFA777000C55FE /* ViewController.swift */,
+				552AFF7D20BFA777000C55FE /* HomeViewController.swift */,
+				552AFF9B20BFB26C000C55FE /* SideMenuViewController.swift */,
+				552AFF9D20BFBC8E000C55FE /* MainViewController.swift */,
 				552AFF7F20BFA777000C55FE /* Main.storyboard */,
 				552AFF8220BFA777000C55FE /* Assets.xcassets */,
 				552AFF8420BFA777000C55FE /* LaunchScreen.storyboard */,
@@ -199,8 +205,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				552AFF7E20BFA777000C55FE /* ViewController.swift in Sources */,
+				552AFF7E20BFA777000C55FE /* HomeViewController.swift in Sources */,
+				552AFF9C20BFB26C000C55FE /* SideMenuViewController.swift in Sources */,
 				552AFF7C20BFA777000C55FE /* AppDelegate.swift in Sources */,
+				552AFF9E20BFBC8E000C55FE /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +364,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFRM48W6T3;
 				INFOPLIST_FILE = SideMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hms.SideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,6 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PFRM48W6T3;
 				INFOPLIST_FILE = SideMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hms.SideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
