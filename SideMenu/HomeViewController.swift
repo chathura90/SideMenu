@@ -32,6 +32,10 @@ class HomeViewController: UIViewController {
         else{
             sideMenuConstraint.constant = 0
             sideMenuOpen = true}
+        
+        UIView.animate(withDuration: 0.3){
+            self.view.layoutIfNeeded()
+        }
     }
 
 
