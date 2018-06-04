@@ -9,10 +9,12 @@
 import UIKit
 
 class MainViewController: UIViewController {
+
+    //defining the delegate property
+     var delegate: SideMenuDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -22,7 +24,10 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func onHambugerButtonClick(){
-        NotificationCenter.default.post(name: NSNotification.Name("ToggleSideMenu"), object: nil)
+//        NotificationCenter.default.post(name: NSNotification.Name("ToggleSideMenu"), object: nil)
+        
+        //delegate method call
+        self.delegate?.toggleSidePannel()
     }
 
     /*

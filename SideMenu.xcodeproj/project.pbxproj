@@ -15,6 +15,7 @@
 		552AFF9120BFA778000C55FE /* SideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AFF9020BFA778000C55FE /* SideMenuTests.swift */; };
 		552AFF9C20BFB26C000C55FE /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AFF9B20BFB26C000C55FE /* SideMenuViewController.swift */; };
 		552AFF9E20BFBC8E000C55FE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AFF9D20BFBC8E000C55FE /* MainViewController.swift */; };
+		55900BD720C00A490081E915 /* SideMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55900BD620C00A490081E915 /* SideMenuDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		552AFF9220BFA778000C55FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		552AFF9B20BFB26C000C55FE /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		552AFF9D20BFBC8E000C55FE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		55900BD620C00A490081E915 /* SideMenuDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				552AFF7D20BFA777000C55FE /* HomeViewController.swift */,
 				552AFF9B20BFB26C000C55FE /* SideMenuViewController.swift */,
 				552AFF9D20BFBC8E000C55FE /* MainViewController.swift */,
+				55900BD620C00A490081E915 /* SideMenuDelegate.swift */,
 				552AFF7F20BFA777000C55FE /* Main.storyboard */,
 				552AFF8220BFA777000C55FE /* Assets.xcassets */,
 				552AFF8420BFA777000C55FE /* LaunchScreen.storyboard */,
@@ -206,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				552AFF7E20BFA777000C55FE /* HomeViewController.swift in Sources */,
+				55900BD720C00A490081E915 /* SideMenuDelegate.swift in Sources */,
 				552AFF9C20BFB26C000C55FE /* SideMenuViewController.swift in Sources */,
 				552AFF7C20BFA777000C55FE /* AppDelegate.swift in Sources */,
 				552AFF9E20BFBC8E000C55FE /* MainViewController.swift in Sources */,
